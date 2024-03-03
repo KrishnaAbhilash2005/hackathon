@@ -12,14 +12,13 @@ Usage:-
 Select "VEG" or "non VEG" using the radio buttons to display the corresponding food items.
 Click on the menu items to explore more details or make an order.
 
+stack
 Our repository houses HTML, CSS, and JavaScript files for CUSINE EXPRESS. Name a website showcasing a variety of food items.
 HTML File: Defines the website structure, including food item display and selection features.
 CSS File: Styles the website for visual appeal and responsiveness.
 JavaScript File: Provides interactive functionality, such as form validation or dynamic content updates.
 Contributions: Welcome from the community to enhance our project.
 
-License:-
-This project is licensed under the MIT License.
 
 
 
