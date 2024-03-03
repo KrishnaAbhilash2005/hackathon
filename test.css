@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo span{
+    font-size: 1.5rem;
+    font-size: 600;
+}
+.logo img{
+    width: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 500;
+}
+#search{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.center{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+.upper-right-form label {
+        display: inline-block;
+    }
+    #vegItems {
+        display: none;
+    }
+
+}
+

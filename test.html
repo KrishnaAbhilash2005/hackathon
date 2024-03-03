@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./Gold Luxury Initial Circle Logo_20240302_183123_0000.jpg" alt="">
+            <span>CUSINE EXPRESS</span>
+        </div>
+        <input type="text" id="search" placeholder="search">
+        <ul class="list">
+            <li><a href="test.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li> <!-- Link to menu.html -->
+            <li><a href="order.html">Order</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+
+    <img src="images (3) (1).jpeg" alt="">
+    <div class="center">
+        <form>
+            <input type="radio" id="veg" name="foodType" value="VEG">
+            <label for="veg">VEG</label><br>
+            <input type="radio" id="nonVeg" name="foodType" value="nonVEG">
+            <label for="nonVeg">non VEG</label><br>
+        </form>
+        <div id="vegItems">
+            <ul>
+                <li>dosa chutney</li>
+                <li>salad</li>
+                <li>pasta</li>
+                <li>curry</li>
+                <li>veg sandwich</li>
+            </ul>
+        </div>
+        <script>
+            document.getElementById("veg").addEventListener("change", function() {
+                var vegItems = document.getElementById("vegItems");
+                if (this.checked) {
+                    vegItems.style.display = "block";
+                } else {
+                    vegItems.style.display = "none";
+                }
+            });
+        </script>
+        <div id="nonVegItems">
+            <ul>
+                <li>Chicken biriani</li>
+                <li>steak</li>
+                <li>pizza</li>
+                <li>soup</li>
+            </ul>
+        </div>
+        <script>
+           document.getElementById("nonVegItems").style.display = "none";
+
+document.getElementById("veg").addEventListener("change", function() {
+    var vegItems = document.getElementById("vegItems");
+    var nonVegItems = document.getElementById("nonVegItems");
+    if (this.checked) {
+        vegItems.style.display = "block";
+        nonVegItems.style.display = "none";
+    } else {
+        vegItems.style.display = "none";
+    }
+});
+
+document.getElementById("nonVeg").addEventListener("change", function() {
+    var vegItems = document.getElementById("vegItems");
+    var nonVegItems = document.getElementById("nonVegItems");
+    if (this.checked) {
+        nonVegItems.style.display = "block";
+        vegItems.style.display = "none";
+    } else {
+        nonVegItems.style.display = "none";
+    }
+});
+        </script>
+       
+
+ </body>
+</html>
